@@ -1,0 +1,92 @@
+/* Nav Container */
+.navContainer{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0px 1px 6px rgb(105, 103, 103);
+    border-bottom: 5px solid white;
+    border-radius: 5px;
+    /* position: fixed; */
+}
+.navContainer span:hover{
+    color: orange;
+}
+
+/* Nav font styling */
+.navContainer span{
+    color: black;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 500;
+    margin-top: 16px;
+    /* background-color: yellow; */
+    /* padding-right: 80px; */
+}
+
+.navContainer .rigthNav{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    column-gap: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: -24px;
+    padding-right: 50px;
+
+}
+span .spanTwo{
+    margin-left: 5px;
+}
+.navLogo{
+    justify-content: center;
+}
+#swiggyLogo{
+    width: 60px;
+    height: 70px;
+}
+
+.rigthNavContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+    /* margin-right: 40px; */
+}
+.rigthNavContainer .navIcon img{
+    width: 20px;
+    margin-left: 20px;
+    height: 25px;
+    transform:translatex(-20px);
+}
+/* .rigthNavContainer .navIcon .rigthText{
+    display:flex;
+    transform:translateY(10px);
+} */
+
+.navIcon span{
+    transform: translateY(50px);
+}
+.navContainer .navIcon{
+    margin-right: 7px;
+    transform: translatey(18px);
+}
+
+.navContainer .leftNav{
+    display: flex;
+    padding-left: 150px;
+    column-gap: 35px;
+    justify-content: center;
+    text-align: center;
+    margin-left: -100px;
+    
+}
+
+.navContainer .leftNav .leftText{
+    transform: translateY(10px);
+    padding: 10px;
+}

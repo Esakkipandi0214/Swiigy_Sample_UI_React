@@ -1,0 +1,66 @@
+.sectionTwoContainer{
+    background-color: white;
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.headerTwoContainer{
+    color: black;
+    font-size: 25px;
+}
+.level1{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: -4px;
+    scrollbar-width: none;
+    /* background-color: yellow; */
+}
+  
+.level2{
+    padding: 10px;
+    margin: 30px;
+}
+.twoImg{
+    border: 2px soild transparent;
+    border-radius: 12px;
+    width: 200px;
+    /* background-color: aqua; */
+}
+.starImg{
+    transform: translateY(4px);
+    margin-left: 10px;
+}
+.twoImg img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.spanTextName{
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+}
+.spanTextTime{
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+
+}
+.spanTextType{
+    color: black;
+    margin-left: 10px;
+
+}
+.spanTextPlace{
+    color: black;
+    margin-left: 10px;
+    
+}
+.headerTwoContainer{
+    color: black;
+    font-size: 30px;
+}
